@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 100vh;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 80px;
+  margin: 20px 100px;
+}
+.menu {
+  margin-right: 30px;
+}
+.first-screen {
+  background-image: url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 50px 50px 90px;
+}
+.h1_f-s {
+  flex-wrap: wrap;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  border-radius: 25px;
+  padding: 10px 40px;
+  margin: 30px 20px;
+}
+.button:hover {
+  background-color: orangered;
+}
+.text1 {
+  max-width: 600px;
+  margin: auto;
+}
+.p1_fs,
+.h1_fs {
+  font-weight: bolder;
+}
+.app1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -240px;
+}
+
+@media screen and {
+  max-width: 414px;
+}
