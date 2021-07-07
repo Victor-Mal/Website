@@ -1,34 +1,43 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 24px;
 }
+
 .header {
   height: 100vh;
+  
 }
+
 .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   height: 80px;
   margin: 20px 100px;
 }
+
 .menu {
   margin-right: 30px;
 }
+
 .first-screen {
   background-image: url(../images/background1.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   color: white;
-  font-size: 24px;
+  
   padding: 50px 50px 90px;
 }
+
 .h1_f-s {
   flex-wrap: wrap;
 }
+
 .button {
   display: inline-block;
   text-decoration: none;
@@ -37,24 +46,31 @@ body {
   border-radius: 25px;
   padding: 10px 40px;
   margin: 30px 20px;
+  position: relative;
+  z-index: 1;
 }
+
 .button:hover {
   background-color: orangered;
 }
+
 .text1 {
   max-width: 600px;
   margin: auto;
 }
-.p1_fs,
-.h1_fs {
+
+.p1_fs, .h1_fs {
   font-weight: bolder;
 }
+
 .app1 {
   display: flex;
   justify-content: center;
-  margin-top: -240px;
+  position: relative;
+  
 }
-
-@media screen and {
-  max-width: 414px;
+.application1 {
+position: absolute;
+top: -250px;
+z-index: 0;
 }
