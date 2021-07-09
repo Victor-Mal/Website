@@ -5,11 +5,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.header {
-  height: 100vh;
-  
-}
-
 .head {
   display: flex;
   justify-content: space-between;
@@ -32,7 +27,7 @@ body {
   text-align: center;
   color: white;
   
-  padding: 50px 50px 90px;
+  padding: 73px 50px 162px;
 }
 
 .h1_f-s {
@@ -44,8 +39,8 @@ body {
   text-decoration: none;
   color: white;
   border: solid 1px white;
-  border-radius: 25px;
-  padding: 10px 40px;
+  border-radius: 40px;
+  padding: 20px 40px;
   margin: 30px 20px;
   position: relative;
   z-index: 1;
@@ -60,9 +55,10 @@ body {
   margin: auto;
 }
 
-.p1_fs, .h1_fs, .main-header {
+.p1_fs, .h1_fs, .main-header, .h2_ts {
   font-weight: bolder;
 }
+
 
 .app1 {
   display: flex;
@@ -72,13 +68,16 @@ body {
 }
 .application1 {
 position: absolute;
-top: -130px;
+top: -200px;
 z-index: 0;
 }
+main {
+  margin: 600px 0 100px;
+}
 hr {
-  margin-top: 600px;
   width: 80%;
 }
+
 .main-header {
   
   text-align: center;
@@ -87,7 +86,7 @@ hr {
 .second-screen {
   display: flex;
   flex-flow: column;
-  height: 100vh;
+  
     
 }
 
@@ -113,4 +112,29 @@ hr {
 }
 .phone {
   margin: 0 150px;
+}
+.third-screen {
+  background-image: url(../images/background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 145px;
+}
+.b-ftr {
+  border-radius: 10px;
+}
+.bottom {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.bottom-logo{
+  max-width: 240px;
+}
+.bottom-text {
+  font-size: 16px;
+}
+.img-center {
+  margin: 0 30px;
 }
