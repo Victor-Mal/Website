@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -51,7 +52,7 @@ body {
 }
 
 .button:hover {
-  background-color: orangered;
+  background-color: #f94a0c;
 }
 
 .text1 {
@@ -59,7 +60,7 @@ body {
   margin: auto;
 }
 
-.p1_fs, .h1_fs {
+.p1_fs, .h1_fs, .main-header {
   font-weight: bolder;
 }
 
@@ -71,6 +72,45 @@ body {
 }
 .application1 {
 position: absolute;
-top: -250px;
+top: -130px;
 z-index: 0;
+}
+hr {
+  margin-top: 600px;
+  width: 80%;
+}
+.main-header {
+  
+  text-align: center;
+  margin: 80px;
+}
+.second-screen {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+    
+}
+
+.part-one, .part-two {
+  display: flex;
+ 
+  margin: auto;
+  align-items: center;
+}
+
+.text2, .text3 {
+  max-width: 500px;
+}
+.link-ss {
+  text-decoration: none;
+  color: #f94a0c;
+}
+.text-po {
+  color: #737373;
+}
+.phone, .application1 {
+  filter: drop-shadow(20px 10px 10px rgba(139, 139, 139, 0.5));
+}
+.phone {
+  margin: 0 150px;
 }
